@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction:column;
+    background-image: url(../Imagens/espaço.jpg);
+}
+.personagens, .planets{
+    display: flex;
+    flex-direction: column;
+    border: 6px outset white;
+    padding: 15px;
+    margin: 15px;
+    width: auto;
+    color: white;
+    background-color: black;
+    background-image: url(../Imagens/espaço.jpg);
+}
+#num, #enviar1,#num2, #enviar2 {
+    width: 20vw;
+}
+#mostra1, #mostra2{
+    font-size: larger;
+}
+img {
+    border: 5px outset yellow;
+    width: 100%;
+    height: 25vw;
+    margin: 5px;
+}
+
+.imagem{
+    display: flex;
+}
+label {
+    font-size: x-large;
+}
+select, input{
+    border: 2px outset grey;
+    border-radius: 10px;
+    height: 30px;
+}
+
+@media (max-width: 915px) {
+
+body{
+    text-align: center;
+}
+.box-aux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mostra1, #mostra2{
+    font-size: x-large;
+}
+#num, #enviar1,#num2, #enviar2 {
+    width: 80vw;
+    margin: 2px;
+}
+label{
+    margin: 0;
+}
+img{
+    height: 30vw;
+}
+}
+
+@media (max-width: 285px) {
+    #mostra1, #mostra2{
+        font-size: larger;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    #num, #enviar1,#num2, #enviar2 {
+        width: 75vw;
+        margin: 5px;
+    }
+}
