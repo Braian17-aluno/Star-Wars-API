@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Star Wars API</title>
+</head>
+<body>
+    <div class="imagem">
+    <img src="../Imagens/Star_Wars_Logo.png" alt="SW-img">
+    </div>
+    <div class="personagens">
+        <div class="box-aux">
+    <label for="num">Selecione um personagem</label>
+    <select name="personagem" id="num">
+        <option selected disabled value="0">*Não Selecionado</option>
+        <option value="1">Luke Skywalker</option>
+        <option value="2">C-3PO</option>
+        <option value="3">R2-D2</option>
+        <option value="4">Darth Vader</option>
+        <option value="5">Leia Organa</option>
+        <option value="6">Owen Lars</option>
+        <option value="7">Beru Whitesun Lars</option>
+        <option value="8">R5-D4</option>
+        <option value="9">Biggs Darklighter</option>
+        <option value="10">Obi-Wan Kenobi</option>
+        <option value="11">Anakin Skywalker</option>
+        <option value="12">Wilhuff Tarkin</option>
+        <option value="13">Chewbacca</option>
+        <option value="14">Han Solo</option>
+        <option value="15">Greedo</option>
+        <option value="16">Jabba Desilijic Tiure</option>
+        <option value="18">Wedge Antilles</option>
+        <option value="19">Jek Tono Porkins</option>
+        <option value="20">Yoda</option>
+    </select>
+    <input type="button" value="Solicitar" id="enviar1"><br>
+    </div>
+    <div id="mostra1"></div>
+</div>
+
+    <br>
+
+<div class="planets">
+    <div class="box-aux">
+    <label for="num2">Selecione um planeta</label>
+    <select name="planetas" id="num2">
+        <option selected disabled value="0">*Não Selecionado</option>
+        <option value="1">Tatooine</option>
+        <option value="2">Alderaan</option>
+        <option value="3">Yavin IV</option>
+        <option value="4">Hoth</option>
+        <option value="5">Dagobah</option>
+        <option value="6">Bespin</option>
+        <option value="7">Endor</option>
+        <option value="8">Naboo</option>
+        <option value="9">Coruscant</option>
+        <option value="10">Kamino</option>
+        <option value="11">Geonosis</option>
+        <option value="12">Utapau</option>
+        <option value="13">Mustafar</option>
+        <option value="14">Kashyyyk</option>
+        <option value="15">Polis Massa</option>
+        <option value="16">Mygeeto</option>
+        <option value="17">Felucia</option>
+        <option value="18">Cato Neimoidia</option>
+        <option value="19">Saleucami</option>
+        <option value="20">Stewjon</option>
+    </select>
+    <input type="button" value="Solicitar" id="enviar2"><br>
+    </div>
+    <div id="mostra2"></div>
+</div>
+  <script src="../JS/SW-API.js"></script>
+</body>
+</html>
